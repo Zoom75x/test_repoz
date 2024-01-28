@@ -151,7 +151,9 @@ function convertGradeToScore(grade) {
         return "Введите число от 0 до 9"
     }
 }
+function jdhcfv(efvc) {
 
+}
 module.exports = {getResult3,isAdult,findMax,convertScoreToGrade, convertGradeToScore}
 
 
