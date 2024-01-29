@@ -6,6 +6,7 @@
 
 function isPasswordStrong(password) {
     if (password.length>=6){
+        return  true
        //Метод indexOf() сравнивает искомый элемент searchElement с элементами в массиве, используя строгое сравнение (en-US) (тот же метод используется оператором ===, тройное равно).
 
 
