@@ -1,3 +1,6 @@
+//ЦИКЛЫ
+
+
 //while
 
 const loopWhile = () => {
