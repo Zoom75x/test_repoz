@@ -19,10 +19,12 @@ function classifyFilmByAge(rating){
     if(rating==="R"){
         return "фильм для лиц старше 17 лет"
     }
-    if(rating){
-        return "фильм для лиц старше 17 лет"
+    if(typeof rating ==!string){
+        return "Вводимые данные должны быть буквенным значением"
     }
     if(!rating){
-        return "фильм для лиц старше 17 лет"
+        return "Значение не может быть пустым"
     }
 }
+
+module.exports={classifyFilmByAge}
