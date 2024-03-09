@@ -110,6 +110,68 @@ const testToUpperCase=(str)=>{
 
 // РАССМОТРИМ МЕТОДЫ С ПОМОЩЬЮ КОТОРЫХ МОЖНО НАЙТИ ИСКОМЫЙ ЭЛЕМЕНТ В СТРОКЕ
 
+// метод index0f
+
+//const getIndexElement=(stroka, searchElem)={
+    //    return stroka.index0f(searchElem,2)
+    //    }
+//console.log(getIndexElement("Молоко","о"))
+
+
+//методы INCLUDES STARTSWITH ENDSWITH
+
+const testSearch=(stroka,searchElem)=>{
+    //1 return stroka.includes(searchElem)  включает ли часть внутри строки
+    //2 return stroka.startsWith(searchElem)  начинается ли с этой части строка
+    //3 return stroka.endsWith(searchElem)  заканчивается ли на эту часть строка
+}
+
+//1 console.log(testSearch("Молоко","оло"))
+//2 console.log(testSearch("Молоко","Мол"))
+//3 console.log(testSearch("Молоко","ко"))
+
+
+//ПОИСК ПОДСТРОКИ метод slice(start, end) откуда начинаем и где заканчиваем срезать
+
+const getSubStr=()=>{
+    console.log("Молоко".slice(2,4))
+    console.log("Молоко".slice(4))
+    console.log("Молоко".slice(-5,-1))
+}
+//getSubStr()
+
+//СРАВНЕНИЕ СТРОК
+
+const testString3=()=>{
+    console.log("a">"z")
+    console.log("a">"Z")
+    console.log("a", "a".codePointAt(0))
+    console.log("z", "z".codePointAt(0))
+    console.log("Z", "Z".codePointAt(0))
+}
+testString3()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
