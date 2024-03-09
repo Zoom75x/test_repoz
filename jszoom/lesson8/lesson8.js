@@ -30,17 +30,19 @@ const getGuestList=()=>{
     `
     return guestList
    // console.log(getGuestList())
-
+}
+//console.log(getGuestList())
+//console.log(getGuestList())
     //подробнее про длину строки
 
     const getLengthStr=(str)=>{
-        const vasya={
-            value: "Вася",
-            length:4
-        }
+
         return str.length
     }
-    console.log(getLengthStr())
+
+    //console.log(getLengthStr("World"))
+//console.log(getLengthStr(" World "))
+//console.log(getLengthStr("\tWorld"))
 
 
 
@@ -51,5 +53,4 @@ const getGuestList=()=>{
 
 
 
-}
-console.log(getGuestList())
+
