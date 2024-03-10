@@ -69,6 +69,111 @@ const getValueByKey=(obj,key)=>{    //такое обращение функци
 
 //создадим функцию которая создает и возвращает объект
 
+const createObject=(key,value)=>{
+    return{
+        [key]:value
+    }
+}
+
+//console.log(createObject("name", "Ivan"))
+
+
+//создадим функцию которая принимает два аргумента в виде свойств объекта и возвращает объект
+// в котором будут эти два свойства и сразу их величины(которые будут в аргументах)
+
+const createObject2 = (name, age) =>{
+    return {
+        id:"1",
+        name:name,  //если имя свойства берется из одной переменной то можно просто писать переменную
+        age: age     // вместо name:name, можно написать просто name,
+    }
+}
+//console.log(createObject2("Ivan", 43))
+
+//если ключ отсутствует то получим undefined
+
+
+//если такое поле существует и например его значение равно undefined то как провеорить существует ли это свойчтво вообще
+
+user.gender=undefined
+
+console.log(user.gender)
+// тогда используем оператор in
+
+//console.log('gender' in user)
+//console.log('gender25' in user)
+//console.log(user)
+
+
+///как перебрать все свойства объекта
+
+
+const getAllValue=()=>{
+    for (const key in user) {
+        console.log(`${key}: ${user[key]}`)
+    }
+}
+//getAllValue(user)
+
+// КОПИРОВАНИЕ ОБЪЕКТОВ
+
+copyUser = {}
+const getCopyUser=()=>{
+    for (const key in user){
+        copyUser[key]=user[key]
+    }
+}
+//getCopyUser()
+Object.assign(copyUser, user)
+copyUser.from.city="Moscow"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
